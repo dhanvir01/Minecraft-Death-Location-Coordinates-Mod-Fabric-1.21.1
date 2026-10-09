@@ -1,0 +1,14 @@
+{
+  "deathloc.ui.last_death": "LAST DEATH",
+  "deathloc.button.copy": "Copy",
+  "deathloc.button.copy.tooltip": "Copy X, Y, Z coordinates to your clipboard",
+  "deathloc.command.usage": "Usage: /deathloc show",
+  "deathloc.command.no_location": "No death location has been saved yet. It will be recorded the next time you die.",
+  "deathloc.chat.captured": "Death location",
+  "deathloc.chat.previous": "Last death location",
+  "deathloc.chat.copied": "Coordinates copied to clipboard:",
+  "deathloc.chat.copy_failed": "Could not copy the coordinates to the clipboard.",
+  "deathloc.dimension.overworld": "Overworld",
+  "deathloc.dimension.nether": "The Nether",
+  "deathloc.dimension.end": "The End"
+}
