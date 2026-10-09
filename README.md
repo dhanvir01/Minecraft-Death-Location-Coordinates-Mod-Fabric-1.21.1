@@ -37,19 +37,19 @@ Install a Java 21 JDK and verify it with java -version.
 
 Open a terminal in the project folder—the one containing gradlew and build.gradle.
 
-Run the build:
+## Run the build:
 
-Windows
+### Windows
 
-PowerShell
+#### PowerShell
 
-.\gradlew.bat build
-macOS/Linux
+```.\gradlew.bat build```
 
-Bash
+### macOS/Linux
 
-./gradlew build
-Find the built mod in build/libs/. The main jar should be named death-location-coordinates-1.0.0.jar. Use that jar—not one ending in -sources.jar or -dev.jar—and place it in your Minecraft mods folder. You’ll also need Fabric Loader and Fabric API for Minecraft 1.21.1.
+```/gradlew build```
+
+Find the built mod in ```build/libs/```. The main jar should be named *death-location-coordinates-1.0.0.jar*. Use that jar—not one ending in -sources.jar or -dev.jar—and place it in your Minecraft mods folder. You’ll also need Fabric Loader and Fabric API for Minecraft 1.21.1.
 
 ## Credits
 
