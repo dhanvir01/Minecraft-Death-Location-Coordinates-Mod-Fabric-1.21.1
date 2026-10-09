@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.adityabarwal.deathloc.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "deathloc-refmap.json",
+  "client": [
+    "DeathScreenMixin",
+    "ScreenAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

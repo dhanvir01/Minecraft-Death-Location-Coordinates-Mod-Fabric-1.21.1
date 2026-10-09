@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "deathloc",
+  "version": "${version}",
+  "name": "Death Location Coordinates",
+  "description": "Saves and displays your last death coordinates in chat and on the death screen. Includes a one-click copy button and the /deathloc show client command.",
+  "authors": [
+    "Aditya Barwal"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.adityabarwal.deathloc.DeathLocationClient"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "deathloc.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
